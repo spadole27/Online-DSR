@@ -1,0 +1,87 @@
+temp1 
+<!--                 
+                <div class="form-group row">
+                  <div class="col-sm-1"></div>
+                    <label class="col-sm-3">Date of Birth:</label>
+                    <div class="col-sm-3">
+                      <input type="date"  name="date" required>
+                      </div>
+                        
+                </div>
+               
+               
+                <div class="form-group row">
+                  <div class="col-sm-1"></div>
+                    <label class="col-sm-3 ">Gender:</label>
+                    <div class="col-sm-7 ">
+                        <label class="mb-0 mr-3">
+                            <input type="radio" class="mr-1" name="gender" value="male"> Male
+                        </label>
+                        <label class="mb-0 mr-3">
+                            <input type="radio" class="mr-1" name="gender" value="female"> Female
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                  <div class="col-sm-1"></div>
+                  <label class="col-sm-3 " for="address">Address:</label>
+                  <div class="col-sm-7">
+                      <input type="text" name="address" class="form-control" id="address" placeholder="Your Address" required>
+                  </div>
+              </div>
+
+                <div class="form-group row">
+                  <div class="col-sm-1"></div>
+                  <label class="col-sm-3 " >Hobbies:</label>
+                  <div class="col-sm-6">
+                    <div class="custom-control custom-checkbox custom-control-inline">
+                      <input class="custom-control-input" type="checkbox" id="exampleInlineCheckbox1" name="hobby[]" value="Reading Books">
+                      <label class="custom-control-label" for="exampleInlineCheckbox1">Reading Books</label>
+                    </div>
+                    <div class="custom-control custom-checkbox custom-control-inline">
+                      <input class="custom-control-input" type="checkbox" id="exampleInlineCheckbox2" name="hobby[]" value="Playing Basketball" >
+                      <label class="custom-control-label" for="exampleInlineCheckbox2">Playing Basketball</label>
+                    </div>
+                    <div class="custom-control custom-checkbox custom-control-inline">
+                      <input class="custom-control-input" type="checkbox" id="exampleInlineCheckbox3" name="hobby[]" value="Watching Movies" >
+                      <label class="custom-control-label" for="exampleInlineCheckbox3">Watching Movies</label>
+                    </div>
+                    <div class="custom-control custom-checkbox custom-control-inline">
+                      <input class="custom-control-input" type="checkbox" id="exampleInlineCheckbox4" name="hobby[]" value="Playing Football" >
+                      <label class="custom-control-label" for="exampleInlineCheckbox4">Playing Football</label>
+                    </div>
+                    <div class="custom-control custom-checkbox custom-control-inline">
+                      <input class="custom-control-input" type="checkbox" id="exampleInlineCheckbox5" name="hobby[]" value="Listening to Musics" >
+                      <label class="custom-control-label" for="exampleInlineCheckbox5">Listening to Musics</label>
+                    </div>
+                    <div class="custom-control custom-checkbox custom-control-inline">
+                      <input class="custom-control-input" type="checkbox" id="exampleInlineCheckbox6" name="hobby[]" value="Cooking" >
+                      <label class="custom-control-label" for="exampleInlineCheckbox6">Cooking</label>
+                    </div>
+                  </div>
+              </div>
+               -->
+
+
+
+
+
+               success temp1
+               <!-- success massage  -->
+   <!-- <?php
+  //  session_start();
+   if (isset($_SESSION['status']) && $_SESSION['status'] != '') {
+     ?>
+         <script>
+           swal({
+         title: <?php echo $_SESSION['status']?>,
+          text: ,
+           icon: "<?php echo $_SESSION['status']?>",
+           button: "OK",
+  });
+         </script>
+      <?php
+      unset($_SESSION['status']);
+   }
+   ?> -->
